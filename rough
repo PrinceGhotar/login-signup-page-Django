@@ -1,0 +1,28 @@
+learn_django_project/
+│
+├── learn_django/            # Main Django application
+│   ├── __init__.py
+│   ├── settings.py        # Django settings
+│   ├── urls.py            # Main URL configuration
+│   └── wsgi.py            # WSGI configuration for deployment
+│
+├── accounts/               # App for user authentication
+│   ├── migrations/        # Database migrations
+│   ├── templates/         # HTML templates for authentication views
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── forms.py           # Forms for user registration and password recovery
+│   ├── models.py          # Custom user model (if needed)
+│   ├── urls.py            # URL configuration for authentication views
+│   └── views.py           # Views for registration, login, and password recovery
+│
+├── templates/              # Base templates for the website
+│   ├── base.html
+│   └── ...
+│
+├── static/                 # Static files (CSS, JavaScript, etc.)
+│   ├── css/
+│   ├── js/
+│   └── ...
+│
+└── manage.py               # Django's command-line utility
